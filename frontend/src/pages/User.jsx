@@ -8,7 +8,7 @@ const User = () => {
     const [password, setPassword] = useState('');
     const [loggedIn, setLoggedIn] = useState(false);
     const [error, setError] = useState('');
-  
+    
     const handleSubmit = (e) => {
       e.preventDefault();
       // Validate email and password (Example validation)
